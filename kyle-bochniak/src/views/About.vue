@@ -34,6 +34,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 50%;
+  overflow: hidden;
 }
 #container {
   min-height: 100vh;

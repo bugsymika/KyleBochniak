@@ -109,10 +109,6 @@ h2 {
   border-bottom: none;
 }
 
-.cut:hover {
-  background-color: rgb(240, 56, 32);
-}
-
 .spacer {
   height: 5vh;
 }
@@ -162,6 +158,10 @@ a {
 
   .cut {
     width: 60px;
+  }
+
+  .cut:hover {
+    background-color: rgb(240, 56, 32);
   }
 }
 </style>

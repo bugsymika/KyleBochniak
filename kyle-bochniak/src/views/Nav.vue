@@ -47,11 +47,6 @@ export default {
   font-size: 4rem;
 }
 
-.flex:hover {
-  filter: grayscale(0%);
-  color: rgb(240, 56, 32);
-}
-
 #about {
   background-image: url("https://i.imgur.com/H1JSij0.jpg");
   border: 1vw solid black;
@@ -101,6 +96,10 @@ a {
 
   #gallery {
     background-position: unset;
+  }
+  .flex:hover {
+    filter: grayscale(0%);
+    color: rgb(240, 56, 32);
   }
 }
 </style>

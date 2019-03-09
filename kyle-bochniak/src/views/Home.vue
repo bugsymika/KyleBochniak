@@ -75,12 +75,6 @@ h2 {
   text-decoration: underline;
 }
 
-h2:hover {
-  color: rgb(240, 56, 32);
-  text-shadow: 2px 2px #000000;
-  cursor: pointer;
-}
-
 .letsGo {
   width: 50vw;
   border: 4px solid whitesmoke;
@@ -113,16 +107,21 @@ h2:hover {
     font-size: 2rem;
     margin-left: 36%;
   }
+
+  h2:hover {
+    color: rgb(240, 56, 32);
+    text-shadow: 2px 2px #000000;
+    cursor: pointer;
+  }
+  .letsGo:hover {
+    border-color: black;
+    color: black;
+  }
 }
 
 a {
   text-decoration: none;
   color: white;
-}
-
-.letsGo:hover {
-  border-color: black;
-  color: black;
 }
 </style>
 

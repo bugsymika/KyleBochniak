@@ -22,7 +22,7 @@
               <i class="icono-twitter"/>
             </div>
           </a>
-          <a target="_blank" class="link" href="https://www.instagram.com/kylebochniakufc/?hl=en">
+          <a target="_blank" class="link" href="http://instagram.com/_u/kylebochniakufc">
             <div class="cut">
               <i class="icono-instagram"/>
             </div>

@@ -83,6 +83,7 @@ a {
 @media (min-width: 1025px) {
   #container {
     flex-direction: row;
+    overflow: hidden;
   }
   .flex {
     width: 32vw;

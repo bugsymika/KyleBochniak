@@ -134,7 +134,7 @@ a {
 
 @media (min-width: 321px) {
   h1 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
 
   h2 {

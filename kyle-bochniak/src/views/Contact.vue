@@ -55,7 +55,7 @@ export default {
   background-position-x: 35%;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 #background {
@@ -88,7 +88,7 @@ h2 {
   font-family: "Gentium Basic", serif;
   color: white;
   text-shadow: 2px 2px black;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 
 #cuts {

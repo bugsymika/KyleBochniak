@@ -88,7 +88,7 @@ h2 {
   font-family: "Gentium Basic", serif;
   color: white;
   text-shadow: 2px 2px black;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
 
 #cuts {
@@ -131,10 +131,6 @@ a {
 @media (min-width: 321px) {
   h1 {
     font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2rem;
   }
 }
 

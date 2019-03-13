@@ -36,16 +36,15 @@ export default {
 }
 
 .flex {
-  width: 100vw;
+  width: 98vw;
   height: 29vh;
   background-position: center;
   background-size: cover;
   font-family: "Open Sans", sans-serif;
-  color: red;
+  color: white;
   text-shadow: 1px 1px black;
   filter: grayscale(100%);
   font-size: 4rem;
-  box-sizing: border-box;
 }
 
 #about {
@@ -53,7 +52,6 @@ export default {
   border: 1vw solid black;
   background-position: top;
   border-bottom: none;
-  border-top: none;
 }
 
 #gallery {

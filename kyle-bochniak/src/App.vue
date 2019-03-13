@@ -18,7 +18,7 @@
 body,
 html {
   padding: 0px;
-  height: 90vh;
+  height: 89.5vh;
   width: fit-content;
   margin: 0px;
   overflow: hidden;

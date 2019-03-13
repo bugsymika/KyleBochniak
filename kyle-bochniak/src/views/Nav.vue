@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 #container {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ export default {
 
 .flex {
   width: 100vw;
-  height: 33.33333vh;
+  height: 30vh;
   background-position: center;
   background-size: cover;
   font-family: "Open Sans", sans-serif;

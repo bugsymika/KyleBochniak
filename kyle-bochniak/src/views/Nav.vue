@@ -41,7 +41,7 @@ export default {
   background-position: center;
   background-size: cover;
   font-family: "Open Sans", sans-serif;
-  color: white;
+  color: red;
   text-shadow: 1px 1px black;
   filter: grayscale(100%);
   font-size: 4rem;
@@ -87,6 +87,7 @@ a {
     width: 32vw;
     height: 96vh;
     font-size: 7.5rem;
+    color: white;
     box-sizing: content-box;
   }
 

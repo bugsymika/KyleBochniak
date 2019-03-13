@@ -32,12 +32,12 @@ export default {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .flex {
   width: 100vw;
-  height: 30vh;
+  height: 29vh;
   background-position: center;
   background-size: cover;
   font-family: "Open Sans", sans-serif;
@@ -81,6 +81,7 @@ a {
   #container {
     flex-direction: row;
     overflow: hidden;
+    height: 100vh;
   }
   .flex {
     width: 32vw;

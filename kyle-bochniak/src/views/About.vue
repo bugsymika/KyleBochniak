@@ -40,6 +40,7 @@ export default {
   min-height: 100vh;
   max-height: fit-content;
   width: 100vw;
+  overflow: hidden;
 }
 #background {
   background-color: rgba(0, 0, 0, 0.753);

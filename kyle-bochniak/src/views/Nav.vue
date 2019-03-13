@@ -37,7 +37,7 @@ export default {
 
 .flex {
   width: 100vw;
-  height: 33.333vh;
+  height: 33.33333vh;
   background-position: center;
   background-size: cover;
   font-family: "Open Sans", sans-serif;
@@ -45,20 +45,21 @@ export default {
   text-shadow: 1px 1px black;
   filter: grayscale(100%);
   font-size: 4rem;
+  box-sizing: border-box;
 }
 
 #about {
   background-image: url("https://i.imgur.com/H1JSij0.jpg");
   border: 1vw solid black;
-  border-right: none;
   background-position: top;
+  border-bottom: none;
 }
 
 #gallery {
   background-image: url("https://i.imgur.com/SQGnkXl.jpg");
   border: 1vw solid black;
-  border-right: none;
   background-position-y: 10%;
+  border-bottom: none;
 }
 
 #contact {
@@ -67,7 +68,8 @@ export default {
 }
 
 p {
-  padding-top: 0%;
+  padding: 0px;
+  margin: 0px;
 }
 
 a {
@@ -84,6 +86,7 @@ a {
     width: 32vw;
     height: 96vh;
     font-size: 7.5rem;
+    box-sizing: content-box;
   }
 
   p {
@@ -92,10 +95,14 @@ a {
 
   #about {
     background-position: center;
+    border-right: none;
+    border-bottom: 1vw solid black;
   }
 
   #gallery {
     background-position: unset;
+    border-right: none;
+    border-bottom: 1vw solid black;
   }
   .flex:hover {
     filter: grayscale(0%);

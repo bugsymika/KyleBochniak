@@ -64,6 +64,7 @@ export default {
 #contact {
   background-image: url("https://i.imgur.com/3IMJOxo.jpg");
   border: 1vw solid black;
+  border-bottom: none;
 }
 
 p {

@@ -37,7 +37,7 @@ export default {
 
 .flex {
   width: 100vw;
-  height: 29vh;
+  height: 30vh;
   background-position: center;
   background-size: cover;
   font-family: "Open Sans", sans-serif;

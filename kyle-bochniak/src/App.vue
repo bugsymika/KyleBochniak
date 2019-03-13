@@ -18,10 +18,10 @@
 body,
 html {
   padding: 0px;
-  height: 100%;
-  width: 100%;
+  height: 90vh;
+  width: 100vh;
   margin: 0px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 /* router-view {
   height: 100%;
@@ -37,7 +37,8 @@ html {
 }
 #app {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
+  overflow: hidden;
 }
 
 .fade-enter-active,
@@ -50,5 +51,16 @@ html {
 .fade-enter,
 .fade-leave-active {
   opacity: 0;
+}
+
+@media (min-width: 1025px) {
+  #app {
+    height: 100vh;
+  }
+
+  body,
+  html {
+    height: 100vh;
+  }
 }
 </style>

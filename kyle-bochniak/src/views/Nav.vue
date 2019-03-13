@@ -37,7 +37,7 @@ export default {
 
 .flex {
   width: 100vw;
-  height: 30vh;
+  height: 29vh;
   background-position: center;
   background-size: cover;
   font-family: "Open Sans", sans-serif;
@@ -53,6 +53,7 @@ export default {
   border: 1vw solid black;
   background-position: top;
   border-bottom: none;
+  border-top: none;
 }
 
 #gallery {
@@ -99,6 +100,7 @@ a {
     background-position: center;
     border-right: none;
     border-bottom: 1vw solid black;
+    border-top: 1vw solid black;
   }
 
   #gallery {

@@ -18,10 +18,11 @@
 body,
 html {
   padding: 0px;
-  height: 89.5vh;
+  height: fit-content;
   width: fit-content;
   margin: 0px;
   overflow: hidden;
+  background-color: black;
 }
 /* router-view {
   height: 100%;

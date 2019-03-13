@@ -69,7 +69,7 @@ export default {
 
 p {
   padding: 0px;
-  margin: 0px;
+  margin-top: 25%;
 }
 
 a {

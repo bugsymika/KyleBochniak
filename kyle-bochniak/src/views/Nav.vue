@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 #container {
-  height: 90vh;
+  height: 91vh;
   width: 100vw;
   overflow: hidden;
   display: inline-block;

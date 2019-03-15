@@ -169,7 +169,7 @@ a {
 
   .bottom {
     margin-top: 100%;
-    padding-top: 150px;
+    padding-top: 10vh;
   }
 }
 </style>

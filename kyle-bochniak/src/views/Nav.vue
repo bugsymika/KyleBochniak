@@ -2,19 +2,25 @@
   <div id="container">
     <router-link to="about">
       <div class="flex" id="about" v-bind:class="{ hide: isHide }">
-        <p>ABOUT</p>
+        <div class="bottom">
+          <p>ABOUT</p>
+        </div>
       </div>
     </router-link>
 
     <router-link to="gallery">
       <div class="flex" id="gallery" v-bind:class="{ hide: isHide }">
-        <p>GALLERY</p>
+        <div class="bottom">
+          <p>GALLERY</p>
+        </div>
       </div>
     </router-link>
 
     <router-link to="contact">
       <div class="flex" id="contact" v-bind:class="{ hide: isHide }">
-        <p>CONTACT</p>
+        <div class="bottom">
+          <p>CONTACT</p>
+        </div>
       </div>
     </router-link>
   </div>
@@ -63,7 +69,9 @@ export default {
   margin-top: 1vh;
   font-weight: 900;
 }
-
+.bottom {
+  margin-top: 35%;
+}
 #about {
   background-image: url("~@/assets/bochniakIBJJF.jpg");
   border-top: 1vh solid black;
@@ -89,8 +97,14 @@ export default {
 }
 
 p {
-  padding: 0px;
-  margin-top: 25%;
+  padding: 4px;
+  border: 2px solid whitesmoke;
+  height: fit-content;
+  border-radius: 20px;
+  width: fit-content;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
 }
 
 a {
@@ -101,10 +115,6 @@ a {
 @media (min-width: 768px) {
   #contact {
     background-position-y: 20%;
-  }
-
-  p {
-    margin: 0px;
   }
 }
 
@@ -121,10 +131,6 @@ a {
     color: white;
     box-sizing: content-box;
     margin-top: 0px;
-  }
-
-  p {
-    padding-top: 60%;
   }
 
   #about {
@@ -147,6 +153,15 @@ a {
   .flex:hover {
     filter: grayscale(0%);
     color: rgb(240, 56, 32);
+  }
+
+  p {
+    font-size: 5rem;
+    padding: 0px;
+  }
+
+  .bottom {
+    margin-top: 100%;
   }
 }
 </style>

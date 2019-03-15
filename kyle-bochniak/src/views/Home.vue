@@ -1,19 +1,21 @@
 <template>
   <div id="container" :style="{ backgroundImage: 'url(' + background + ')' }">
-    <h1>Kyle
+    <!-- <h1>Kyle
       <br class="mobileBreak">
       <span class="red">"CRASH"</span>
       <br class="mobileBreak">Bochniak
       <br>
       <span class="red">UFC Featherweight</span>
-    </h1>
-    <router-link to="/nav">
-      <div
-        v-on:mouseover="switchBackground"
-        v-on:mouseout="switchBackground"
-        class="letsGo"
-      >LET'S GO >></div>
-    </router-link>
+    </h1>-->
+    <div id="center">
+      <router-link to="/nav">
+        <div
+          v-on:mouseover="switchBackground"
+          v-on:mouseout="switchBackground"
+          class="letsGo"
+        >LET'S GO >></div>
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -40,6 +42,9 @@ export default {
 </script>
 
 <style scoped>
+#center {
+  padding-top: 75%;
+}
 #container {
   height: 100%;
   width: 100%;
@@ -84,10 +89,12 @@ h2 {
   margin-left: 20%;
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
-  margin-top: 20px;
 }
 
 @media (min-width: 1024px) {
+  #center {
+    padding-top: 25%;
+  }
   h1 {
     font-size: 6em;
     padding-top: 20%;

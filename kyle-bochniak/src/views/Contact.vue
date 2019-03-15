@@ -13,7 +13,7 @@
         <div class="h2Box">
           <h2>Want to train with me?</h2>
         </div>
-        <p>I teach private lessons in Brazilian Jiu-Jitsu, Kickboxing, Boxing, MMA and personal training sessions
+        <p>I offer private or group sessions in Boxing, Kickboxing, Brazilian Jiu-Jitsu, MMA and Strength & Conditioning
           <br>
           <br>$100 per hour / $60 per half hour
         </p>

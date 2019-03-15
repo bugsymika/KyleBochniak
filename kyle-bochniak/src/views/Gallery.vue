@@ -29,7 +29,7 @@ export default {
 }
 
 header {
-  background-image: url("https://i.imgur.com/QTQ7PL4.png");
+  background-image: url("~@/assets/headerBG.png");
   display: flex;
   height: 10vh;
   overflow: hidden;

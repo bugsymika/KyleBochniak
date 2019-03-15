@@ -1,19 +1,19 @@
 <template>
   <div id="container">
     <router-link to="about">
-      <div class="flex" id="about" :style="{ backgroundImage: 'url(' + about + ')' }">
+      <div class="flex" id="about">
         <p>ABOUT</p>
       </div>
     </router-link>
 
     <router-link to="gallery">
-      <div class="flex" id="gallery" :style="{ backgroundImage: 'url(' + gallery + ')' }">
+      <div class="flex" id="gallery">
         <p>GALLERY</p>
       </div>
     </router-link>
 
     <router-link to="contact">
-      <div class="flex" id="contact" :style="{ backgroundImage: 'url(' + contact + ')' }">
+      <div class="flex" id="contact">
         <p>CONTACT</p>
       </div>
     </router-link>
@@ -22,20 +22,7 @@
 
 <script>
 export default {
-  name: "Nav.vue",
-
-  data() {
-    return {
-      about: "",
-      gallery: "",
-      contact: ""
-    };
-  },
-  mounted() {
-    this.about = "https://i.imgur.com/H1JSij0.jpg";
-    this.gallery = "https://i.imgur.com/SQGnkXl.jpg";
-    this.contact = "https://i.imgur.com/3IMJOxo.jpg";
-  }
+  name: "Nav.vue"
 };
 </script>
 
@@ -61,7 +48,7 @@ export default {
 }
 
 #about {
-  /* background-image: url("https://i.imgur.com/H1JSij0.jpg"); */
+  background-image: url("~@/assets/bochniakIBJJF.jpg");
   border-top: 1vh solid black;
   border-left: 1vw solid black;
   border-right: 1vw solid black;
@@ -69,7 +56,7 @@ export default {
 }
 
 #gallery {
-  /* background-image: url("https://i.imgur.com/SQGnkXl.jpg"); */
+  background-image: url("~@/assets/kyleCele.jpg");
   border-left: 1vw solid black;
   border-right: 1vw solid black;
   border-top: 1vh solid black;
@@ -77,7 +64,7 @@ export default {
 }
 
 #contact {
-  /* background-image: url("https://i.imgur.com/3IMJOxo.jpg"); */
+  background-image: url("~@/assets/bochniakCuts.jpg");
   border-left: 1vw solid black;
   border-right: 1vw solid black;
   border-top: 1vh solid black;

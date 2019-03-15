@@ -51,7 +51,7 @@ export default {
 #container {
   height: 100vh;
   width: 100vw;
-  background-image: url("https://i.imgur.com/KpKe5cN.jpg");
+  background-image: url("~@/assets/kyleGNP.jpg");
   background-position-x: 35%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@ export default {
 }
 
 header {
-  background-image: url("https://i.imgur.com/QTQ7PL4.png");
+  background-image: url("~@/assets/headerBG.png");
   display: flex;
   height: 10vh;
   overflow: hidden;

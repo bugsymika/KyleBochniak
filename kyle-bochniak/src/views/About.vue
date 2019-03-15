@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 #body {
-  background-image: url("https://i.imgur.com/X2gitUJ.jpg");
+  background-image: url("~@/assets/aboutBG.jpg");
   background-size: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,7 +49,7 @@ export default {
 }
 
 header {
-  background-image: url("https://i.imgur.com/QTQ7PL4.png");
+  background-image: url("~@/assets/headerBG.png");
   display: flex;
   height: 10vh;
   overflow: hidden;

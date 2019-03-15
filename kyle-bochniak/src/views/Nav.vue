@@ -1,19 +1,19 @@
 <template>
   <div id="container">
     <router-link to="about">
-      <div class="flex" id="about">
+      <div class="flex" id="about" v-bind:class="{ hide: isHide }">
         <p>ABOUT</p>
       </div>
     </router-link>
 
     <router-link to="gallery">
-      <div class="flex" id="gallery">
+      <div class="flex" id="gallery" v-bind:class="{ hide: isHide }">
         <p>GALLERY</p>
       </div>
     </router-link>
 
     <router-link to="contact">
-      <div class="flex" id="contact">
+      <div class="flex" id="contact" v-bind:class="{ hide: isHide }">
         <p>CONTACT</p>
       </div>
     </router-link>
@@ -22,11 +22,22 @@
 
 <script>
 export default {
-  name: "Nav.vue"
+  name: "Nav.vue",
+  data() {
+    return {
+      isHide: true
+    };
+  },
+  mounted() {
+    this.isHide = !this.isHide;
+  }
 };
 </script>
 
 <style scoped>
+.hide {
+  display: none;
+}
 #container {
   height: 91vh;
   width: 100vw;

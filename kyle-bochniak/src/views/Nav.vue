@@ -49,22 +49,26 @@ export default {
 
 #about {
   background-image: url("https://i.imgur.com/H1JSij0.jpg");
-  border: 1vw solid black;
+  border-top: 1vh solid black;
+  border-left: 1vw solid black;
+  border-right: 1vw solid black;
   background-position: top;
-  border-bottom: none;
 }
 
 #gallery {
   background-image: url("https://i.imgur.com/SQGnkXl.jpg");
-  border: 1vw solid black;
+  border-left: 1vw solid black;
+  border-right: 1vw solid black;
+  border-top: 1vh solid black;
   background-position-y: 10%;
-  border-bottom: none;
 }
 
 #contact {
   background-image: url("https://i.imgur.com/3IMJOxo.jpg");
-  border: 1vw solid black;
-  border-bottom: none;
+  border-left: 1vw solid black;
+  border-right: 1vw solid black;
+  border-top: 1vh solid black;
+  border-bottom: 1vh solid black;
 }
 
 p {
@@ -106,6 +110,11 @@ a {
     background-position: unset;
     border-right: none;
     border-bottom: 1vw solid black;
+    border-top: 1vw solid black;
+  }
+
+  #contact {
+    border-top: 1vw solid black;
   }
   .flex:hover {
     filter: grayscale(0%);

@@ -78,7 +78,7 @@ export default {
   background-position-x: 35%;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 #content {

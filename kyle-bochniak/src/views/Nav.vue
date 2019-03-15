@@ -1,4 +1,5 @@
 <template>
+  import { setTimeout } from 'timers';
   <div id="container">
     <router-link to="about">
       <div class="flex" id="about" :style="{ backgroundImage: 'url(' + about + ')' }">
@@ -32,9 +33,11 @@ export default {
     };
   },
   mounted() {
-    this.about = "https://i.imgur.com/H1JSij0.jpg";
-    this.gallery = "https://i.imgur.com/SQGnkXl.jpg";
-    this.contact = "https://i.imgur.com/3IMJOxo.jpg";
+    setTimeout(function() {
+      this.about = "https://i.imgur.com/H1JSij0.jpg";
+      this.gallery = "https://i.imgur.com/SQGnkXl.jpg";
+      this.contact = "https://i.imgur.com/3IMJOxo.jpg";
+    }, 100);
   }
 };
 </script>

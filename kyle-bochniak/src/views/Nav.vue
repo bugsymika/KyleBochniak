@@ -36,7 +36,7 @@ export default {
 
 .flex {
   width: 98vw;
-  height: 29vh;
+  height: 28vh;
   background-position: center;
   background-size: cover;
   font-family: "Open Sans", sans-serif;
@@ -45,6 +45,7 @@ export default {
   filter: grayscale(100%);
   font-size: 4rem;
   float: left;
+  margin-top: 1vh;
 }
 
 #about {
@@ -93,6 +94,7 @@ a {
     font-size: 7.5rem;
     color: white;
     box-sizing: content-box;
+    margin-top: 0px;
   }
 
   p {

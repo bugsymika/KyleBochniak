@@ -61,7 +61,7 @@ export default {
   background-size: cover;
   /* font-family: "Open Sans", sans-serif; */
   font-family: "Spectral", serif;
-  color: white;
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px black;
   filter: grayscale(100%);
   font-size: 10vw;
@@ -135,7 +135,6 @@ a {
     width: 32vw;
     height: 96vh;
     font-size: 6vw;
-    color: white;
     box-sizing: content-box;
     margin-top: 0px;
   }

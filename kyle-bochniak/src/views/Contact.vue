@@ -13,7 +13,7 @@
         <div class="h2Box">
           <h2>Want to train with me?</h2>
         </div>
-        <p>I teach private lessions in Brazilian Jiu-Jitsu, Muay Thai, Boxing, MMA and personal training sessions
+        <p>I teach private lessions in Brazilian Jiu-Jitsu, Kickboxing, Boxing, MMA and personal training sessions
           <br>
           <br>$100 per hour / $60 per half hour
         </p>
@@ -38,8 +38,8 @@
           <h2>Follow me on social media:</h2>
         </div>
         <div class="icons">
-          <a target="_blank" class="link" href="https://www.facebook.com/kylekillerbeebochniak/">
-            <i class="icono-facebook"/>
+          <a target="_blank" class="link" href="http://instagram.com/_u/kylebochniakufc">
+            <i class="icono-instagram"/>
           </a>
           
           <a
@@ -49,9 +49,8 @@
           >
             <i class="icono-twitter"/>
           </a>
-          
-          <a target="_blank" class="link" href="http://instagram.com/_u/kylebochniakufc">
-            <i class="icono-instagram"/>
+          <a target="_blank" class="link" href="https://www.facebook.com/kylekillerbeebochniak/">
+            <i class="icono-facebook"/>
           </a>
         </div>
         <div class="spacer"/>

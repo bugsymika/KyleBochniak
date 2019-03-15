@@ -7,35 +7,55 @@
           <i class="icono-leftArrow"/>
         </router-link>
         <h1>Contact</h1>
-        <div id="cuts">
-          <a target="_blank" class="link" href="https://www.facebook.com/kylekillerbeebochniak/">
-            <div class="cut">
-              <i class="icono-facebook"/>
-            </div>
+      </header>
+
+      <div id="content">
+        <div class="h2Box">
+          <h2>Want to train with me?</h2>
+        </div>
+        <p>I teach private lessions in Brazilian Jiu-Jitsu, Muay Thai, Boxing, MMA and personal training sessions
+          <br>
+          <br>$100 per hour / $60 per half hour
+        </p>
+
+        <div class="scheduleBox">
+          <a
+            target="_blank"
+            href="https://squareup.com/appointments/book/9B5ZRK5M4DPXK/bochniak-martial-arts-fitness"
+          >
+            <h3>
+              <i class="icono-calendar"/>
+              Click here to schedule!
+            </h3>
           </a>
+        </div>
+
+        <div class="h2Box">
+          <h2>Have a business inquiry?</h2>
+        </div>
+        <p>Email me at KyleBochniak@gmail.com</p>
+        <div class="h2Box">
+          <h2>Follow me on social media:</h2>
+        </div>
+        <div class="icons">
+          <a target="_blank" class="link" href="https://www.facebook.com/kylekillerbeebochniak/">
+            <i class="icono-facebook"/>
+          </a>
+          
           <a
             target="_blank"
             class="link"
             href="https://twitter.com/KyleBochniak?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
           >
-            <div class="cut">
-              <i class="icono-twitter"/>
-            </div>
+            <i class="icono-twitter"/>
           </a>
+          
           <a target="_blank" class="link" href="http://instagram.com/_u/kylebochniakufc">
-            <div class="cut">
-              <i class="icono-instagram"/>
-            </div>
+            <i class="icono-instagram"/>
           </a>
         </div>
-      </header>
-
-      <div id="content">
-        <h2>Interested in booking a private training session or making a sponsorship inquiry?
-          <br>
-          <br>
-          <br>Email me at KyleBochniak@gmail.com
-        </h2>
+        <div class="spacer"/>
+        <div class="spacer"/>
       </div>
     </div>
   </div>
@@ -48,14 +68,25 @@ export default {
 </script>
 
 <style scoped>
+::-webkit-scrollbar {
+  display: none;
+}
+
 #container {
   height: 100vh;
   width: 100vw;
-  background-image: url("~@/assets/kyleGNP.jpg");
+  background-image: url("~@/assets/contactBG.jpg");
   background-position-x: 35%;
   background-size: cover;
   background-repeat: no-repeat;
   overflow-y: hidden;
+}
+
+#content {
+  width: 96vw;
+  height: 80vh;
+  overflow: scroll;
+  margin: auto;
 }
 
 #background {
@@ -86,28 +117,17 @@ h1 {
 }
 
 h2 {
-  font-family: "Gentium Basic", serif;
-  color: white;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(192, 42, 23);
   text-shadow: 2px 2px black;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
 }
 
-#cuts {
-  margin-left: auto;
-  width: 40%;
+h3 {
   color: white;
-  display: flex;
-}
-
-.cut {
-  height: 120px;
-  width: 45px;
-  background-color: rgb(255, 255, 255);
-  transform: skew(45deg);
-  box-sizing: border-box;
-  border: 8px solid black;
-  border-top: none;
-  border-bottom: none;
+  margin: 0px;
+  font-size: 1.2em;
 }
 
 .spacer {
@@ -118,26 +138,51 @@ a {
   text-decoration: none;
 }
 
-.link {
-  margin-left: 10%;
+p {
+  font-family: "Gentium Basic", serif;
+  font-size: 1.2rem;
+  margin-top: 0px;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-.cut i {
-  color: black;
-  margin-top: 50%;
-  transform: skew(-45deg);
-  zoom: 0.7;
+.scheduleBox {
+  width: fit-content;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.icons {
+  zoom: 1.8;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding-top: 10px;
 }
 
 @media (min-width: 321px) {
   h1 {
     font-size: 2.5rem;
   }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+  .icono-calendar {
+    zoom: 1.2;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   header {
     height: 11vh;
@@ -145,20 +190,20 @@ a {
 }
 
 @media (min-width: 1025px) {
+  #content {
+    width: 80vw;
+    overflow: hidden;
+  }
   #container {
     background-position: center;
   }
 
   h2 {
-    font-size: 4em;
+    font-size: 3em;
   }
 
-  .cut {
-    width: 60px;
-  }
-
-  .cut:hover {
-    background-color: rgb(240, 56, 32);
+  p {
+    font-size: 2rem;
   }
 }
 </style>

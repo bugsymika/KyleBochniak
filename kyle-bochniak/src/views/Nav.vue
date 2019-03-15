@@ -30,9 +30,8 @@ export default {
 #container {
   height: 90vh;
   width: 100vw;
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
+  display: inline-block;
 }
 
 .flex {
@@ -45,6 +44,7 @@ export default {
   text-shadow: 1px 1px black;
   filter: grayscale(100%);
   font-size: 4rem;
+  float: left;
 }
 
 #about {

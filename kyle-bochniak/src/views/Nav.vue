@@ -70,7 +70,7 @@ export default {
   font-weight: 900;
 }
 .bottom {
-  margin-top: 38%;
+  margin-top: 30%;
 }
 #about {
   background-image: url("~@/assets/bochniakIBJJF.jpg");

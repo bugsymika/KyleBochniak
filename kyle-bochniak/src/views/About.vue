@@ -71,7 +71,7 @@ header {
 }
 
 h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Spectral", serif;
   color: white;
   text-align: left;
   padding: 10px;
@@ -80,7 +80,7 @@ h1 {
 }
 
 p {
-  font-family: "Gentium Basic", serif;
+  font-family: "Karla", sans-serif;
   font-size: 1.4rem;
   margin-top: 0px;
   color: white;
@@ -118,7 +118,7 @@ a {
   }
 
   #content {
-    width: 85vw;
+    width: 80vw;
     margin-top: 20px;
   }
 

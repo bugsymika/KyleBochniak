@@ -53,13 +53,15 @@ export default {
   height: 28vh;
   background-position: center;
   background-size: cover;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Spectral", serif;
   color: white;
   text-shadow: 1px 1px black;
   filter: grayscale(100%);
-  font-size: 4rem;
+  font-size: 10vw;
   float: left;
   margin-top: 1vh;
+  font-weight: 900;
 }
 
 #about {
@@ -96,6 +98,16 @@ a {
   text-decoration: none;
 }
 
+@media (min-width: 768px) {
+  #contact {
+    background-position-y: 20%;
+  }
+
+  p {
+    margin: 0px;
+  }
+}
+
 @media (min-width: 1025px) {
   #container {
     flex-direction: row;
@@ -105,14 +117,14 @@ a {
   .flex {
     width: 32vw;
     height: 96vh;
-    font-size: 7.5rem;
+    font-size: 6vw;
     color: white;
     box-sizing: content-box;
     margin-top: 0px;
   }
 
   p {
-    padding-top: 50%;
+    padding-top: 60%;
   }
 
   #about {

@@ -107,7 +107,7 @@ header {
 }
 
 h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Spectral", serif;
   color: white;
   text-align: left;
   padding: 10px;
@@ -116,7 +116,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Spectral", serif;
   color: rgb(192, 42, 23);
   text-shadow: 2px 2px black;
   font-size: 1.5rem;
@@ -127,6 +127,7 @@ h3 {
   color: white;
   margin: 0px;
   font-size: 1.2em;
+  font-family: "Karla", sans-serif;
 }
 
 .spacer {
@@ -138,7 +139,7 @@ a {
 }
 
 p {
-  font-family: "Gentium Basic", serif;
+  font-family: "Karla", sans-serif;
   font-size: 1.2rem;
   margin-top: 0px;
   color: white;

@@ -51,7 +51,7 @@ header {
 }
 
 h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Spectral", serif;
   color: white;
   text-align: left;
   padding: 10px;

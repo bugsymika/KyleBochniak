@@ -63,15 +63,14 @@ h1 {
   font-weight: 300;
   text-shadow: 2px 2px #000000;
   font-size: 2.9rem;
-  font-family: "Open Sans", sans-serif;
-
+  font-family: "Spectral", serif;
   margin-bottom: 0px;
 }
 
 h2 {
   width: fit-content;
   margin: auto;
-  font-family: "Gentium Basic", serif;
+  font-family: "Spectral", serif;
   text-decoration: underline;
 }
 

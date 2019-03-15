@@ -70,7 +70,7 @@ export default {
   font-weight: 900;
 }
 .bottom {
-  margin-top: 35%;
+  margin-top: 38%;
 }
 #about {
   background-image: url("~@/assets/bochniakIBJJF.jpg");
@@ -100,16 +100,23 @@ p {
   padding: 4px;
   border: 2px solid whitesmoke;
   height: fit-content;
-  border-radius: 20px;
+  border-radius: 5px;
   width: fit-content;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
   margin: auto;
+  background-color: black;
 }
 
 a {
   text-emphasis: none;
   text-decoration: none;
+}
+
+@media (min-width: 321px) {
+  .bottom {
+    margin-top: 40%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -156,12 +163,14 @@ a {
   }
 
   p {
-    font-size: 5rem;
-    padding: 0px;
+    font-size: 2.5rem;
+    padding: 6px;
+    text-shadow: 4px 4px black;
   }
 
   .bottom {
     margin-top: 100%;
+    padding-top: 150px;
   }
 }
 </style>

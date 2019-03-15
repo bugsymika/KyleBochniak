@@ -84,34 +84,30 @@ h2 {
   border: 4px solid whitesmoke;
   height: fit-content;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 5px;
   text-align: center;
   margin-left: 20%;
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
+  background-color: black;
 }
 
 @media (min-width: 1024px) {
   #center {
     padding-top: 25%;
   }
-  h1 {
-    font-size: 6em;
-    padding-top: 20%;
-    padding-right: 60px;
-  }
 
   .mobileBreak {
     display: none;
   }
   .letsGo {
-    width: 20vw;
+    width: 10vw;
     border: 4px solid whitesmoke;
     height: fit-content;
     padding: 10px;
-    border-radius: 20px;
-    font-size: 2rem;
-    margin-left: 36%;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-left: 41%;
   }
 
   h2:hover {
@@ -122,6 +118,7 @@ h2 {
   .letsGo:hover {
     border-color: black;
     color: black;
+    background-color: white;
   }
 }
 

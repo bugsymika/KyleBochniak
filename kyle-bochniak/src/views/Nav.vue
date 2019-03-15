@@ -28,8 +28,11 @@ export default {
       isHide: true
     };
   },
+
   mounted() {
-    this.isHide = !this.isHide;
+    setTimeout(() => {
+      this.isHide = !this.isHide;
+    }, 200);
   }
 };
 </script>

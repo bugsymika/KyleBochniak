@@ -53,8 +53,8 @@
             <i class="icono-facebook"/>
           </a>
         </div>
-        <div class="spacer"/>
-        <div class="spacer"/>
+        <div class="mobileSpacer"/>
+        <div class="mobileSpacer"/>
       </div>
     </div>
   </div>
@@ -78,7 +78,7 @@ export default {
   background-position-x: 35%;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 #content {
@@ -131,6 +131,10 @@ h3 {
 }
 
 .spacer {
+  height: 5vh;
+}
+
+.mobileSpacer {
   height: 5vh;
 }
 
@@ -190,9 +194,12 @@ p {
 }
 
 @media (min-width: 1025px) {
+  .mobileSpacer {
+    height: 0px;
+  }
   #content {
     width: 80vw;
-    overflow: hidden;
+    overflow-y: scroll;
   }
   #container {
     background-position: center;
